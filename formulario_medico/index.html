@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8" />
+	<title>Formulario| Pedido Turno Médico</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+	<!-- stylesheets -->
+	<link rel="stylesheet" href="css/style.css" type="text/css" />
+	<link rel="stylesheet" href="css/main.css" type="text/css" />
+	<!-- javascripts -->
+	<!--[if IE]><script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
+
+</head>
+
+<link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+
+<body>
+	<section id="content">
+		<div class="container">
+			<section id="introp" class="cf">
+				<div class="grid-full">
+					<form id="form" class="form" name="form" method="get" enctype="text/plain" accept-charset="UTF-8">
+					    <h1>Formulario para Pedido de Turnos Médicos</h1>
+					    <div class="content">
+					        <div class="intro"><h2 style="text-align: justify;"><em>Por favor complete el siguienete formulario para solicitar su turno.</em></h2></div>
+					        <div id="section0" >
+					            <div class="field"><label for="Nombre">Nombre</label><input type="text" id="Nombre" name="Nombre" required autofocus></div>
+					            <div class="field"><label for="Apellido">Apellido</label><input type="text" id="Apellido" name="Apellido" required autofocus></div>
+					            <div class="field"><label for="DNI">DNI</label><input type="text" id="DNI" name="DNI" required autofocus></div>
+					            <div class="field"><label for="Email">Email</label><input type="email" id="Email" name="Email" required autofocus></div>
+					            <div class="field"><label for="TelfonoFijo">Teléfono Fijo</label><input type="tel" id="TelfonoFijo" name="TelfonoFijo" required autofocus></div>
+					            <div class="field"><label for="TelfonoCelular">Teléfono Celular</label><input type="tel" id="TelfonoCelular" name="TelfonoCelular" autofocus></div>
+					            <div class="field"><label for="Direccin">Dirección</label><input type="text" id="Direccin" name="Direccin" autofocus></div>
+					            <div class="field"><label for="Especialidad">Especialidad</label><select id="Especialidad" name="Especialidad" required autofocus><option value="1">Médicina Clínica</option><option value="2">Ginecología</option><option value="3">Pediatría</option><option value="4">Odontología</option><option value="5">Oftalmología</option><option value="6">Gastroenterología</option><option value="7">Endocrinología</option></select></div>
+					            <div class="field"><label for="InstalacinMedica">Instalación Médica</label><select id="InstalacinMedica" name="InstalacinMedica" required autofocus><option value="1">Lugar1</option><option value="2">Lugar2</option><option value="3">Lugar3</option><option value="4">Lugar4</option><option value="5">Lugar5</option></select></div>
+					            <div class="field"><label for="MdicoPreferidoOpcional">Médico Preferido (Opcional) </label><input type="text" id="MdicoPreferidoOpcional" name="MdicoPreferidoOpcional" autofocus></div>
+					            <div class="field"><label for="Turno">Turno (Día: Se le ofrecerá la fecha más próxima  dada sus preferencias)</label><select id="Turno" name="Turno" required autofocus><option value="1">Mañana</option><option value="2">Tarde</option></select></div>
+					            <div class="field"><label for="Op">¿En caso que la cita disponible basada en sus preferencias esté a más de 3 días hábiles,  quisiera usted que le ofrezcamos opción de  atenderse con otros médicos, instalaciones médicas y/o turnos?. Opción de atenderse con otros médicos, instalaciones médicas y/o turnos:</label><span>Si</span><input type="radio" value="1" id="Op" name="Op" autofocus><span>No</span><input type="radio" value="2" id="Op" name="Op" autofocus></div>
+					            <div class="field"><div class="edit-options"><div class="edit"></div><div class="delete"></div></div><label for="Motivo">Describa el motivo de su consulta</label><textarea id="Motivo" name="Motivo" wrap="hard" required autofocus></textarea></div>
+					            <div class="field"><label for="Comentarioorequisitoadicional">Comentario o requisito adicional</label><textarea id="Comentarioorequisitoadicional" name="Comentarioorequisitoadicional" wrap="hard" autofocus></textarea></div>
+					            <div class="field"><input type="submit" id="Enviar" name="Enviar" value="Enviar" autofocus></div>
+					        </div>
+					    </div>
+					</form>
+				</div>
+
+			</section>
+
+			<footer class="grid-full">
+			  <p>&hearts; 2014 &mdash; Gilda Jerez</p>
+			</footer>
+		</div>
+	</section>
+
+</body>
+</html>

@@ -1,0 +1,92 @@
+body{
+    background: url(http://affirmcare.com/wp-content/uploads/2012/08/Fotolia_32919588_Subscription_Monthly_XXL.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: top left;
+    background-size: 100% 100%;
+	} 
+
+	.container{
+		max-width: 1024px;
+		opacity: 0.9;
+    }
+
+    .grid-full p{
+    
+		background: #607A75;
+		color: white;
+        border-radius: 20px;
+        opacity: 0.9;
+        text-align: center;
+    }
+
+	 .form{ 
+	    max-width: 100%; 
+	    min-width: 0%; 
+	    border-width: 2px; 
+	    border-color: #CCCCCC; 
+	    border-radius: 30px; 
+	    border-style: solid; 
+	    color: #222222; 
+	    font-size: 14px; 
+	    margin: 1px; 
+	    background-color: #FFFFFF; 
+	    padding: 30px; 
+	} 
+	.content{ 
+	    margin: 30px; 
+	} 
+	.form label{ 
+	    color: #222222; 
+	    font-size: 14px; 
+	    display: block; 
+	} 
+	.form input[type=radio], input[type=checkbox]{ 
+	    margin: 10px; 
+	    width: 13px; 
+	} 
+	.form div{ 
+	    display: block; 
+	} 
+	.form input, form textarea, form select{ 
+	    border-width: 1px; 
+	    border-style: solid; 
+	    border-color: #666666; 
+	    border-radius: 3px; 
+	    padding: 2px; 
+	    width: 100%; 
+	} 
+	.form, .form h1, .form h2{ 
+	    font-family: 'Open Sans', sans-serif; 
+	} 
+	.form h1{ 
+	    font-size: 35px; 
+	    color: #607A75; 
+	    padding: 0px; 
+	    margin: 0px; 
+	    margin-bottom: 2px; 
+	    border-bottom-style: dotted; 
+	    border-bottom-color: #CCCCCC; 
+	    border-bottom-width: 2px; 
+	    border-radius: 0px; 
+	    background-color: #FFFFFF; 
+	    text-align: center;
+	} 
+	.intro{ 
+	    margin-bottom: 6px; 
+	} 
+	.clear{ 
+	    clear: both; 
+	} 
+	.form textarea{ 
+	    height: 72px; 
+	    width: 100%; 
+	} 
+	.form input[type=submit]{ 
+	    width: 25%; 
+	    background-color: #607A75; 
+	    color: white; 
+	} 
+	.field{ 
+	    margin-bottom: 17px; 
+	} 
